@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: "Gilroy";
+    background-image: url(https://images.unsplash.com/photo-1680328944823-547f1c7dc353?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=495&q=80);
+    background-color: lavender;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    font-size: 50px;
+
+}
+
+form {
+    width: 40%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.shorten-url {
+    width: 60em;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+    /* background-color: #f0ff6e; */
+    /* border-style: solid; */
+    box-shadow: -1px 2px 31px -21px rgba(156, 150, 165, 0.5);
+    border-radius: 10px;
+}
+
+input {
+    width: 32em;
+    padding: 12px 15px;
+    background: pink;
+    border: #050505 ;
+    border-style: solid;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 22px;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: #2c3542;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input placeholder {
+    color: #2c3542;
+    font-family: "Gilroy";
+}
+
+button {
+    padding: 12px 15px ;
+    background-color: rgb(91, 91, 117);
+    color: #fff;
+    font-size: 20px;
+    /* font-weight: medium; */
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+
+button :hover {
+    background: #2c1342;
+    transition: .5s;
+}
+
+.result .item {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(181, 181, 71);
+    font-size: 25px;
+    margin-inline: auto;
+}
+
+.newUrl-btn {
+    padding-top: 10px;
+    border-radius: 0.2rem;
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: center;
+    background:black;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
